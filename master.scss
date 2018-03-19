@@ -1,0 +1,122 @@
+$font: "Roboto Mono";
+$secendry: #782EFB;
+$primary: #007bff;
+
+.navbar-btns{
+	.dropdown-toggle{
+		padding: 0;
+	}
+}
+
+.btn,
+.nav-item .nav-link,
+.dropdown-item{
+	font-family: $font;
+}
+
+.btn{
+	background: $primary;
+	background-image: none !important;
+	&:hover{
+		background: lighten($primary, 10%);
+		background-image: none;
+	}
+	&:before {
+		background-image: none;
+		display: none ;
+	}
+}
+
+.btn.btn-alt {
+	background: $secendry;
+	background-image: none;
+	&:hover {
+		background: lighten($secendry, 10%);
+		background-image: none;
+	}
+}
+
+.banner.banner-curb.banner-particle{
+	background-image: none;
+}
+
+.header-txt{
+	.lead{
+		color:#fff9;
+	}
+}
+
+.play-btn>span:last-of-type {
+	font-size: 12px;
+	color: #00B9FA;
+}
+
+.token-countdown {
+	.countdown-text{
+		font-family: $font;
+		letter-spacing: 1px;
+	}
+	.countdown-time{
+		font-family: $font;
+	}
+}
+
+.event-info{
+	p{
+		font-family: $font;
+		font-size: 12px;
+	}
+}
+
+.btn-android{
+	background-image: none !important;
+	background-color: #6AB344;
+	&:before{
+		background-image: none !important;
+	}
+}
+
+.btn-ios{
+	background-image: none !important;
+	background-color: #fff;
+	color:#000 !important;
+	&:before{
+		background-image: none !important;
+	}
+} 
+
+
+.subscribe-section{
+	background-image: none;
+}
+
+.section-title{
+	span{
+		display: none;
+	}
+}
+
+
+.team-circle .team-title,
+.single-roadmap p{
+	font-family: $font;
+	font-size: 12px;
+}
+
+.navbar .navbar-nav>li>a.nav-link.btn {
+	min-width: auto;
+	padding: 0 23px;
+	border: 2px solid $primary;
+	background: none;
+	font-weight: 600;
+	&:before,&:after{
+		display: none;
+	}
+}
+
+.contact-info{
+	li .fa{
+		background-image: none;
+		background-color: #46bdf4;
+	}
+}
